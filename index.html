@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/contact-icons-png-15.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+
+    <main>
+        <div class="contact-form">
+            <div>
+                <div class="group-btn">
+                    <button><i class='bx bxs-comment-dots'></i> VIA SUPPORT CHAT</button>
+                    <button><i class='bx bxs-phone'></i> VIA CALL</button>
+                </div>
+                <button class="email-btn"><i class='bx bxs-envelope'></i> VIA EMAIL FORM</button>
+
+                <form action="https://formsubmit.co/755742c42b18ad7e0331e1448c4e7fd7" method="POST">
+                    <fieldset>
+                        <legend>Name</legend>
+                        <input type="text" id="name" name="Name" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Email </legend>
+                        <input type="email" id="email" name="Email" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>text </legend>
+                        <textarea name="Message" id="message" cols="30" rows="5" required></textarea>
+                    </fieldset>
+
+                    <div class="submit">
+                        <button class="SubmitBtn" type="submit">Submit Now</button>
+                    </div>
+                </form>
+
+            </div>
+            <div>
+                <img src="images/Contactus.png" alt="">
+            </div>
+        </div>
+
+    </main>
+
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        onsubmit="addEmail(); reset(); return false"
+        function addEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "nimurnerob404@gmail.com",
+                Password: "nerob404A@",
+                To: 'nerobislama14@gmail.com',
+                From: document.getElementById('email').value,
+                Subject: "New Contact",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+
+    </script> -->
+
+
+
+
+</body>
+
+</html>
